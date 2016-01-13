@@ -47,7 +47,7 @@ docker run -d --restart=always --name mwa2 \
 	-p 8000:8000 \
 	-v $MUNKI_REPO:/munki_repo \
 	-v $MWA2_DB:/mwa2-db \
-	grahamrpugh/mwa2
+	grahampugh/docker-mwa2
 
 
 echo
