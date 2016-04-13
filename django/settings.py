@@ -1,9 +1,9 @@
-# Django settings for munki-do project.
+# Django settings for mwa2 project.
 from django.conf import global_settings
-from system_settings import *
+from settings_import import *
 
 ###########################################################################
-# munkiwebadmin-specific
+# docker overrides
 ###########################################################################
 
 # APPNAME is user-visible web app name

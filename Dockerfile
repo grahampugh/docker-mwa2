@@ -27,7 +27,7 @@ RUN git clone https://github.com/munki/mwa2.git $APP_DIR  # force
 ADD django/requirements.txt $APP_DIR/
 RUN mkdir -p /etc/my_init.d
 RUN pip install -r $APP_DIR/requirements.txt
-RUN cp $APP_DIR/munkiwebadmin/settings_template.py $APP_DIR/munkiwebadmin/system_settings.py
+RUN cp $APP_DIR/munkiwebadmin/settings_template.py $APP_DIR/munkiwebadmin/settings_import.py
 ADD django/ $APP_DIR/munkiwebadmin/
 #ADD nginx/nginx-env.conf /etc/nginx/main.d/
 ADD nginx/munkiwebadmin.conf /etc/nginx/sites-enabled/munkiwebadmin.conf
