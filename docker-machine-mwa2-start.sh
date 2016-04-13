@@ -39,7 +39,7 @@ docker run -d --restart=always --name="munki" -v $MUNKI_REPO:/munki_repo \
 	-p 80:80 -h munki groob/docker-munki
 
 # This is optional for complicated builds. It's essential if you're using gitlab in the docker-machine. 
-docker build -t="grahamrpugh/mwa2" .
+# docker build -t="grahamrpugh/mwa2" .
 
 
 # munki-do container
