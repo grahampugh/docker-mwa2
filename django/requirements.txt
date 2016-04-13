@@ -3,3 +3,4 @@ Django==1.9.1
 #psycopg2==2.5.3
 #django-tokenapi==0.2.2
 #django-guardian==1.2.5
+django-wsgiserver==0.8.0rc1
